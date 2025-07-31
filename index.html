@@ -1,0 +1,110 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<script src="https://kit.fontawesome.com/a14ae32021.js" crossorigin="anonymous"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>for my reyu</title>
+
+<style type="text/css">
+@font-face {
+	font-family: digit;
+	src: url('digital-7_mono.ttf') format("truetype");
+}
+</style>
+<link href="css/default.css" type="text/css" rel="stylesheet">
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/garden.js"></script>
+<script type="text/javascript" src="js/functions.js"></script>
+
+</head>
+
+<body>
+
+<div id="mainDiv">
+	<div id="content">
+		<div id="code">
+			<span class="comments">/**</span><br />
+			<span class="space"/><span class="comments">*HAPPY NATIONAL GIRLFRIENDS DAY REYU <3 </span> <br />
+			<span class="space"/><span class="comments">*/</span><br />
+			Hii my cutu baby!!! <br />
+			Do you know how much i love you?<br />
+			<span class="comments">//the answer is a LOTTTTTTTTTTTTTTTTTTTTTTT. </span><br />
+			<br />
+			
+			I may not always say it perfectly;<br />
+			But I hope you feel how much you mean to me<br />
+			every time I look at you.;<br />
+			The way I hold you close and;<br />
+			The way I never want to let you go.;<br />
+			You are my calm in chaos, my favorite kind of peace, and my home;<br />
+			<br>
+			<span class="comments">// I can’t promise to be perfect, but I promise to always try to be better, to be honest and to grow with you.</span><br />
+			I’ll choose you in every lifetime, without a second thought;<br />
+			<br>
+			Thank you for being patient with me, for loving me even when im hard to love and for making me happiest guy there is. You’re not just my girlfriend you’re my best friend, my heart, my cutu, my sexy, my goofy, my strong, my smartie, my adorable, my angry little, my gorgeous, my precious babyyyyyyyyyy you’re my jaanu, my cutiepie, my happiness, my home, my catwoman, my favourite notification, my sunshine, my first thought when i wake up, my go to person, my forever baby, my favourite human being, my mari jaan and the reason I smile sooooooooooo much;<br />
+			<br>
+			<br>
+			All I want to say is-<br />
+			Reyu Baby, I'll always love you no matter what;<br />
+			<br>
+			<br>
+			Now touch the heart below;<br />
+			<br>
+			<span id="heartspan">
+  <a href="WhatsApp Video 2025-07-31 at 9.14.32 PM.mp4" target="_blank">
+    <i class="fas fa-heart" id="icon"></i>
+  </a>
+</span>
+
+		</div>
+		<div id="loveHeart">
+			<canvas id="garden"></canvas>
+			<div id="words">
+				<div id="messages">
+					R&D FOREVER
+					<div id="elapseClock"></div>
+				</div>
+				<div id="loveu">
+					I LOVE YOU <br/>
+					<div class="signature">-dhruval</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript">
+var offsetX = $("#loveHeart").width() / 2;
+var offsetY = $("#loveHeart").height() / 2 - 55;
+var together = new Date();
+together.setFullYear(2016, 8, 5);
+together.setHours(16);
+together.setMinutes(30);
+together.setSeconds(0);
+together.setMilliseconds(0);
+
+if (!document.createElement('canvas').getContext) {
+	var msg = document.createElement("div");
+	msg.id = "errorMsg";
+	msg.innerHTML = "Your browser doesn't support HTML5!<br/>Recommend use Chrome 14+/IE 9+/Firefox 7+/Safari 4+"; 
+	document.body.appendChild(msg);
+	$("#code").css("display", "none")
+	$("#copyright").css("position", "absolute");
+	$("#copyright").css("bottom", "10px");
+	document.execCommand("stop");
+} else {
+	setTimeout(function () {
+		startHeartAnimation();
+	}, 5000);
+
+	timeElapse(together);
+	setInterval(function () {
+		timeElapse(together);
+	}, 500);
+
+	adjustCodePosition();
+	$("#code").typewriter();
+}
+</script>
+</body>
+</html>
